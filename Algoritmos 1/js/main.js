@@ -7,8 +7,15 @@ if(X1 < 1 || X1 >100){
     let X1 = prompt("Ingresa el Primer Numero");
 }
 
+else if((X2 < 1) || (X2 >101)){
+    alert("Ingresa nuevamente");
+    let X2 = prompt("Ingresa el Segundo Numero");
+}
+
+
 let X2 = prompt("Ingresa el Segundo Numero");
-if(X2 < 1 || X2 >101){
+
+else if((X2 < 1) || (X2 >101)){
     alert("Ingresa nuevamente");
     let X2 = prompt("Ingresa el Segundo Numero");
 }
@@ -18,6 +25,8 @@ if(X3 < 1 || X3 >100){
     alert("Ingresa nuevamente");
     let X3 = prompt("Ingresa el Tercer Numero");
 }
+
+
 
 //Se hace la comparación para saber que numero es Mayor
 if((X1 > X2) && (X1 > X3)){
